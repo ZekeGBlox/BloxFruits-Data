@@ -2,25 +2,29 @@ return {
   Weapons = {
     ["Diamond"] = { "Acidum Rifle" },
     ["Smoke Admiral"] = { "Jitte" },
-    ["Cursed Captain"] = { "Hellfire Torch" }
+    ["Cursed Captain"] = { "Hellfire Torch" },
+    ["Orbitus"] = { "Gravity Blade" },
+    ["Tide Keeper"] = { "Dragon Trident" }
   },
 
   Accessories = {
     ["Jeremy"] = { "Black Spikey Coat" },
-    ["Fajita"] = { "Blue Spikey Coat" },
     ["Don Swan"] = { "Swan Glasses" },
-    ["Cursed Captain"] = { "Blue Spikey Coat" }
+    ["Cursed Captain"] = { "Blue Spikey Coat", "Red Spikey Coat" },
+    ["Darkbeard"] = { "Dark Coat" }
   },
 
   QuestItems = {
-    ["Awakened Ice Admiral"] = { "Hidden Key" },   -- opens Library/door chain
+    ["Awakened Ice Admiral"] = { "Hidden Key", "Library Key" }, -- opens Library/door chain
     ["Tide Keeper"]         = { "Water Key" },     -- progress to Third Sea chain
     ["Darkbeard"]           = { "Dark Fragment" }, -- open Darkbeard raid
     ["Order"]               = { "Microchip" }      -- Law raid chip
   },
 
   Materials = {
-    ["Diamond"] = { "Diamond" }
+    ["Diamond"] = { "Diamond" },
+    ["Orbitus"] = { "Meteorite" },
+    ["Cursed Captain"] = { "Ectoplasm" }
   },
 
   -- Mob
@@ -49,5 +53,7 @@ return {
     ["Pistol Billionaire"]= { "Leather", "Scrap Metal" },
     ["Forest Pirate"]     = { "Leather", "Scrap Metal" },
     ["Jungle Pirate"]     = { "Leather", "Scrap Metal" }
-  }
+  },
+
+  NoDrop = {}
 }
